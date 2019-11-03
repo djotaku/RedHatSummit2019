@@ -1,0 +1,16 @@
+A Digital API program in government (Tuesday)
+
+API store - a central repo of Federal Department APIs
+
+Wanted to remove the idea of APIs developed in silos. Even within the same silo, some people didn't know about APIs. So they were not being reused. 
+
+Also, they wanted to have the APIs secured in a more consistent manner.
+
+Wanted a way to keep track of who is using the APIs. Because sometimes people were taking APIs offline that were important to other parts of Canada-gov.
+
+Each customer for ISED came with their own requirements, but didn't care about any other projects so there were a lot of one-off jobs. 
+
+Provides consistent security by having that managed by the API store managers rather than by the API creators
+
+lifecycle management is somewhat built-in with 3Scale (Red Hat product), but requires education to use well
+

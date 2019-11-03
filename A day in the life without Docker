@@ -1,0 +1,36 @@
+A day in the life without Docker
+
+Instead of Docker -> Buildah, Podman, and Skopeo
+
+CRI-O - a lightweight container runtime for Kubernetes. 
+
+Buildah - builds OCI container images and can be built without root. A little more flexible than Dockerfiles
+
+Can build with Buildah from a Dockerfile. Or you could build it from scratch or build from an existing image. 
+
+Red Hat Universal Base Image - small container image based on RHEL. 
+
+buildah bud is the command to Build Using Dockerfile
+
+buildah from is the command to build from another image
+
+by being able to mount the container with buildah, you can install files to it so that yum/dnf never have to be included in the image
+
+podman is a daemon-less API for running, managing, and debugging OCI containers and pods
+
+Same CLI syntax as Docker
+
+Can also run Kubernetes pods
+
+podman pod --help
+
+podman pod is kinda like Docker-Compose, but using Kubernetes tech - it puts the containers into a pod.
+
+ls /var/lib/cni/networks/podman
+
+podman stop --all stops all containers
+
+skoopeo can be used to push images to repo, inspect them, or sign them
+--
+Docker-Compose?
+Opening ports? yes

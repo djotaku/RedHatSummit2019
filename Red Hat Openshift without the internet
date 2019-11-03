@@ -1,0 +1,15 @@
+Red Hat Openshift without the Internet
+
+How do you manage security in a sneakernet environment? Two environments: air-gapped model and cached model. Cached means some servers access the net and then contain the cache for updates. Can use the container sha hashes that should validate that the containers haven't been modified. 
+
+Keeping images updates/syncrhonized/container pulls - need to keep track of the containers you need. But if you have the install playbook already knowing you're doing this, it can be streamlined a bit. 
+
+Getting the networking setup correctly is the hardest part - even with a connected (to outside) OpenShift
+
+When you transition things from low side registry to high side registry, the signatures become invalid. Need to take steps to keep this from happening. 
+
+Need to think about how to do on-premise automation to make up for the fact that you can't do Internet-based automation. 
+
+Best, easy thing to do is create teh container on the low side and then scan it for mal-behavior. Now it's immutable and you know you can always trust it from now on.
+---
+From ealier talk about OpenShift 4 roadmap - by Q4Y19 they will have Windows containers
