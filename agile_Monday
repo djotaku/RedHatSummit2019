@@ -1,0 +1,41 @@
+A year in the life of moving t open source agile integration
+
+A New Zealand group
+
+(mentioned being left off maps)
+
+Spark - the speaker is the largest digital services provider in NZz
+
+went fro mIBM WebSphere to OpenShift as part of their agile platform
+
+Tribe = business unit
+
+Each tribe has 5 squads. And those are also divided into chapters - makes more sense on the slide (slides will be posted)
+
+They wanted to do microcontainers
+
+So they did 50% like for like migration. The rest was edesigns to take advantage of the new platform.
+
+for migration, they did all their planning in Q1 and then migrated more each quarter
+
+in Q1 learned
+Classroom training vefore proof of concept
+
+early and wider involvement of developers in squad
+
+in Q2 learned
+huge amount of time invested in set up of monitoring nad logging.
+
+Learned that re-eingineering and migratino at the same time is very hard
+
+Had to go slightly against traditional AGILE team style in order to make it work, but it gave a more scalable team.
+
+In Q3 learned:
+that like for like is somewhat boring dev work
+
+
+Going forward will be using new container native monitoring with Grafana
+
+they have lots of dos and don'ts, but biggest is don't underestimate time migratino takes or the complexity of logging and monitoring
+
+and do lift and shift first - re-engineer later. Do like-for-like first, then change it to take better advantage of the platform.

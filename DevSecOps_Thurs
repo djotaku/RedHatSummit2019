@@ -1,0 +1,11 @@
+DevSecOps
+
+Going from DevOps to DevTestOpsSec
+
+Making sure we treat Security the same way we united Devs and Operators with DevOps
+
+Without involving security from the beginning, things can quickly fall apart - can't get deps from net or containers
+
+Be proactive and talk to them early so you can make sure that you don't have to stop things mid-way
+
+

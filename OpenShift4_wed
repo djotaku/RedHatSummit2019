@@ -1,0 +1,15 @@
+Openshift 4: what this next year means to you, to us, and the industry!
+
+50% of Fortune 100% and 30% of Global 500 are using OpenShift
+
+fixed up install so that a full cluster can go up with one commandline command
+
+or can create an answer file (in yaml) so that you can non-interactively create clusters
+
+upgrades to OpenShift are now easy and can happen "on top of" the old version
+
+Operators are really neat because it handles setting up pods, secrets, storage, etc. So the devs don't necessarily need to understand the underlying OpenShift stuff
+
+YAML files that describe service provided can also be visualized
+
+

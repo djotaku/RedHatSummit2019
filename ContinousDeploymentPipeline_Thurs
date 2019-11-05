@@ -1,0 +1,13 @@
+ContinousDeplyment pipeline in 330 mninutes. Mission Impossible?
+
+To increase quality - work in smaller increments with a short feedback loop
+
+Also, run tests as early as possible in the dev process
+
+For faster time to market - using something like Jenkins - accelerate tests, automate tests, and automate deployments
+
+advanced operabilitiy can comef rom cisistent enviromment and automated tests platform - use OpenShift for this
+
+praise demo gods google search first hit is a good cartoon
+
+
